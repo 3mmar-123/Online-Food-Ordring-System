@@ -1,0 +1,254 @@
+body {
+    margin: 0;
+    font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+.form-control {
+    font-size: 1.4rem;
+}
+header.masthead {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background: linear-gradient(to bottom, rgb(0 0 0 / 40%) 0%, rgb(245 242 240 / 45%) 100%), url(../assets/img/theater-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+header.masthead h1 {
+    font-size: 2.25rem;
+}
+@media (min-width: 992px) {
+    header.masthead {
+        height: 60vh;
+        min-height: 60vh;
+        padding-top: 4.5rem;
+        padding-bottom: 0;
+    }
+    header.masthead p {
+        font-size: 1.15rem;
+    }
+    header.masthead h1 {
+        font-size: 3rem;
+    }
+}
+@media (min-width: 1200px) {
+    header.masthead h1 {
+        font-size: 3.5rem;
+    }
+}
+.text-cursive{
+    font-family: 'Dancing Script', cursive !important;
+}
+.text-white {
+    color: #fff !important;
+}
+hr.divider {
+    max-width: 100%;
+    border-width: 0.2rem;
+    border-color: #141414;
+    box-shadow: 4px 1px 3px #fff;
+}
+.btn-xl {
+    padding: 1.25rem 2.25rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.card-deck .card {
+    margin-bottom: 15px;
+}
+@media (min-width: 576px) {
+    .card-deck {
+        display: flex;
+        flex-flow: row wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .card-deck .card {
+        flex: 1 0 0%;
+        margin-right: 15px;
+        margin-bottom: 0;
+        margin-left: 15px;
+    }
+}
+
+div#menu-field .menu-item {
+    cursor: pointer;
+    height: 100%;
+}
+#item-img-holder{
+    width: 100%;
+    height: 45vh;
+    background-color: #000;
+}
+.menu-item:hover #item-img-holder>img{
+    transform: scale(1.2);
+
+}
+#item-img-holder>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    transition: transform .3s ease-in-out;
+}
+div#menu-field img, div#menu-field .menu-item-details {
+    margin:auto;
+    max-height: 70vh;
+    border-bottom:1px solid #00000030;
+}
+.truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    font-size: small;
+    color: #000000cf;
+    font-style: italic;
+}
+.modal-dialog.modal-full-height.modal-md {
+    position: absolute;
+    width: 27vw;
+    top: 0px;
+    margin: unset;
+    right: -27vw  ;
+    -webkit-transition: right 0.4s ease-out !important;
+    -moz-transition: right 0.4s ease-out !important;
+    -o-transition: right 0.4s ease-out !important;
+    transition: right 0.4s ease-out !important;
+}
+.modal.show .modal-dialog.modal-full-height.modal-md {
+
+    right: 0  ;
+    -webkit-transition: right 0.4s ease-out !important;
+    -moz-transition: right 0.4s ease-out !important;
+    -o-transition: right 0.4s ease-out !important;
+    transition: right 0.4s ease-out !important;
+}
+.modal .modal-dialog.modal-full-height.modal-md {
+
+    right: -27vw;
+}
+
+.modal-dialog.modal-full-height.modal-md .modal-content{
+    height: 100vh;
+}
+.modal.right.fade .modal-dialog {
+    right: -27vw  ;
+    -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+    transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+@media only screen and (max-width: 600px) {
+    .modal-dialog{
+        position: absolute;
+        width: 100vw !important;
+        top: 0px;
+        margin: unset;
+    }
+    #mainNav.navbar-scrolled {
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        background-color: #fff;
+    }
+}
+.modal-full-height.modal-md .modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 1rem;
+    overflow: auto;
+}
+.paginate-btns a.active {
+    background: #000 !important;
+    color: #fff;
+}
+.paginate-btns a[disabled]:not([disabled='false']){
+    cursor: not-allowed;
+    pointer-events: none;
+    background: #fff;
+    color: #818181;
+    border-color: #818181 !important;
+}
+.text-right {
+    text-align: right !important
+}
+
+/*--------------------------------------------------------------
+# Preloader
+--------------------------------------------------------------*/
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    overflow: hidden;
+    background: #fff;
+}
+
+#preloader:before {
+    content: "";
+    position: fixed;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    border: 6px solid #cc1964;
+    border-top-color: #d1e6f9;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: animate-preloader 1s linear infinite;
+    animation: animate-preloader 1s linear infinite;
+}
+#preloader2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    overflow: hidden;
+    background: #ffffff82;
+}
+
+#preloader2:before {
+    content: "";
+    position: fixed;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    border: 6px solid #e7737d;
+    border-top-color: #d1e6f9;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: animate-preloader 1s linear infinite;
+    animation: animate-preloader 1s linear infinite;
+}
+@-webkit-keyframes animate-preloader {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animate-preloader {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
