@@ -1,8 +1,8 @@
 
-# **Online-Food-Ordring-System**
+# **Restaurant Management System**
 
 ## **Overview**
-The **Online-Food-Ordring-System** is a web-based platform designed to streamline restaurant operations and enhance the dining experience. Our solution offers tools for restaurant owners to manage menus, track orders, and handle payments while empowering customers to browse menus, place orders, and stay updated in real-time.
+The **Restaurant Management System** is a web-based platform designed to streamline restaurant operations and enhance the dining experience. Our solution offers tools for restaurant owners to manage menus, track orders, and handle payments while empowering customers to browse menus, place orders, and stay updated in real-time.
 
 ---
 
@@ -19,12 +19,6 @@ The **Online-Food-Ordring-System** is a web-based platform designed to streamlin
 - **Real-Time Notifications**: Stay informed about new orders and customer activity.
 
 ---
-### **Technical Insights**
-- **Frontend**: HTML, CSS, and JavaScript.
-- **Backend**: PHP Laravel Framework.
-- **HTML Template**: Admin-LTE for restaurant dashboard layout.
-
----
 
 ## **Installation**
 
@@ -35,7 +29,7 @@ The **Online-Food-Ordring-System** is a web-based platform designed to streamlin
 
 ### **Steps**
 1. **Download project zip file**
-2. **Extract project files and move them to the server folder**
+2. **Extract project files and move them to server folder**
 3. **Open cmd on project root folder**
 4. **Install Dependencies**:
    ```bash
