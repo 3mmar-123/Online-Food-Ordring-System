@@ -1,8 +1,8 @@
 
-# **Restaurant Management System**
+# **Online-Food-Ordring-System**
 
 ## **Overview**
-The **Restaurant Management System** is a web-based platform designed to streamline restaurant operations and enhance the dining experience. Our solution offers tools for restaurant owners to manage menus, track orders, and handle payments while empowering customers to browse menus, place orders, and stay updated in real-time.
+The **Online-Food-Ordring-System** is a web-based platform designed to streamline restaurant operations and enhance the dining experience. Our solution offers tools for restaurant owners to manage menus, track orders, and handle payments while empowering customers to browse menus, place orders, and stay updated in real-time.
 
 ---
 
@@ -35,7 +35,7 @@ The **Restaurant Management System** is a web-based platform designed to streaml
 
 ### **Steps**
 1. **Download project zip file**
-2. **Extract project files and move them to server folder**
+2. **Extract project files and move them to the server folder**
 3. **Open cmd on project root folder**
 4. **Install Dependencies**:
    ```bash
