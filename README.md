@@ -1,8 +1,8 @@
 
-# **Online-Food-Ordring-System**
+# **Restaurant Management System**
 
 ## **Overview**
-The **Online-Food-Ordring-System** is a web-based platform designed to streamline restaurant operations and enhance the dining experience. Our solution offers tools for restaurant owners to manage menus, track orders, and handle payments while empowering customers to browse menus, place orders, and stay updated in real-time.
+The **Restaurant Management System** is a web-based platform designed to streamline restaurant operations and enhance the dining experience. Our solution offers tools for restaurant owners to manage menus, track orders, and handle payments while empowering customers to browse menus, place orders, and stay updated in real-time.
 
 ---
 
@@ -17,6 +17,12 @@ The **Online-Food-Ordring-System** is a web-based platform designed to streamlin
 - **Menu Management**: Add, update, and delete menu items with ease.
 - **Order Management**: Track and manage customer orders efficiently.
 - **Real-Time Notifications**: Stay informed about new orders and customer activity.
+
+---
+### **Technical Insights**
+- **Frontend**: HTML, CSS, and JavaScript.
+- **Backend**: PHP Laravel Framework.
+- **HTML Template**: Admin-LTE for restaurant dashboard layout.
 
 ---
 
@@ -62,7 +68,13 @@ The **Online-Food-Ordring-System** is a web-based platform designed to streamlin
 
 ### **Restaurants Search and Browsing**
 ![Homepage Image](imgs/restaurants.png "Home Page")
+![Homepage Image](imgs/nearby.png "Home Page")
 ### **Cart Management**
 ![Menu Management Image](imgs/cart.png "Menu Management")
 
-"# Online-Food-Ordring-System" 
+
+### **Orders Tracking**
+![Homepage Image](imgs/orders%20tracking.png "Home Page")
+### **Deliver Orders And Update Status**
+![Menu Management Image](imgs/agent.png "Menu Management")
+
